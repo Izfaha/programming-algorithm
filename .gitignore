@@ -1,5 +1,5 @@
 # ignoring C or C++ compiled-file
-.exe
+*.exe
 
 # 
 .vscode/
