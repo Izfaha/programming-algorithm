@@ -1,24 +1,26 @@
 #include <stdio.h>
 
-void bubleSort(int arr[]){
-    int sizeOfArray = sizeof(arr) / sizeof(arr[0]) - 1;
-    for(int firstElement = 0; firstElement < sizeOfArray; firstElement++){
-        int compareElement;
-        firstElement = compareElement; 
-        for(int secondElement = firstElement + 1; secondElement < firstElement; secondElement++){
-            if(compareElement[&firstElement] < secondElement[&secondElement]){
-                secondElement[&secondElement] = compareElement[&firstElement];
-                // compareElement[&firstElement] = secondElement[&secondElement];
+void bubbleSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap elements
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
             }
-            int temp = compareElement[&firstElement];
-            
         }
-        
     }
 }
 
-int main(){
+int main() {
     int array[] = {2, 5, 1, 60, 22};
-    bubleSort(array);
+    int size = sizeof(array) / sizeof(array[0]);
+    bubbleSort(array, size);
+    
+    // Print the sorted array
+    for (int i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
     return 0;
 }
