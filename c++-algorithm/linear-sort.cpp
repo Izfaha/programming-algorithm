@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/*
+coded by Fa'iz Maulana Habibi,
+        Program Studi : Teknik Informatika
+        NIM : A11.2024.15726
+*/
+
 int linearSearch(int arr[], int n, int target) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == target)

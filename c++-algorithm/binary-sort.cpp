@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/*
+coded by Fa'iz Maulana Habibi,
+        Program Studi : Teknik Informatika
+        NIM : A11.2024.15726
+*/
+
 int binarySearch(int arr[], int n, int target) {
     int low = 0, high = n-1;
     while (low <= high) {

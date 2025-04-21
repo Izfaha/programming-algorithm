@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/*
+coded by Fa'iz Maulana Habibi,
+        Program Studi : Teknik Informatika
+        NIM : A11.2024.15726
+*/
+
 // Bubble sort prosedure using void 
 
 void bubbleSort(int arr[], int n) {

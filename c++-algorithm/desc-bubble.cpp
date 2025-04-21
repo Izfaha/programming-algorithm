@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/*
+coded by Fa'iz Maulana Habibi,
+        Program Studi : Teknik Informatika
+        NIM : A11.2024.15726
+*/
+
 void bubbleSortDescending(int arr[], int n) {
     bool swapped;
     for (int i = 0; i < n - 1; i++) {

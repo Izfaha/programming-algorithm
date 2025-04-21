@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+/*
+coded by Fa'iz Maulana Habibi,
+        Program Studi : Teknik Informatika
+        NIM : A11.2024.15726
+*/
+
 void printArrayBeforeSorting(int B[], int sizeArray){
     for(int i = 0; i < sizeArray; ++i){
         cout << B[i] << " ";
